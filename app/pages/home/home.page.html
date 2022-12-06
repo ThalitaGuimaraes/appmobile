@@ -1,0 +1,83 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   <ion-buttons slot="start">
+    <ion-button>
+      <ion-icon slot="icon-only" name="menu-alt"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
+  <ion-title class="titlee">RIODOCES</ion-title>
+
+  <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
+  </ion-toolbar>
+
+<ion-toolbar id="search-tool">
+  <ion-searchbar placeholder="Busque pelo seu produto"></ion-searchbar>
+</ion-toolbar>
+
+
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+ 
+ <div class="slider">
+  <ion-nav [root]="component"></ion-nav>
+  <ion-card>
+    <img alt="Tortas" src="https://www.lecado.com.br/produto/baby-crocante-com-doce-de-leite/"/>
+    <ion-card-header>
+      <ion-card-title>Torta Crocante com doce de leite</ion-card-title>
+      <ion-card-subtitle>Tamanho pequeno</ion-card-subtitle>
+    </ion-card-header>
+  
+
+
+    <ion-card-content>
+      Compre sua torta na loja RioDoces
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$75</ion-badge>
+      <ion-label>Comprar Aqui</ion-label>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-card>
+    <img alt="Tortas" src="https://www.lecado.com.br/produto/paula/" />
+    <ion-card-header>
+      <ion-card-title>Torta Paula</ion-card-title>
+      <ion-card-subtitle>Tamanho grande </ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Compre sua torta na loja RioDoces
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$98</ion-badge>
+      <ion-label>Comprar Aqui</ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <img alt="Tortas" src="https://www.lecado.com.br/produto/pave-de-natal/" />
+    <ion-card-header>
+      <ion-card-title>Pavê de Natal</ion-card-title>
+      <ion-card-subtitle>Tamanho grande</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Compre sua torta na loja RioDoces
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$249.90</ion-badge>
+      <ion-label>Comprar Aqui</ion-label>
+    </ion-item>
+  </ion-card>
+</div>
+</ion-content>
+
